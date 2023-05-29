@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+        <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+        <!-- <script src="http://code.jquery.com/jquery-latest.js"></script> -->
+
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400&display=swap" rel="stylesheet"> -->
+        <link rel="stylesheet" href="css/burger.css" />
+        <link rel="stylesheet" href="css/compte.css" />
+        <link rel="stylesheet" href="css/barreLastMom.css" />
+        <link rel="stylesheet" href="css/index2.css" />
+        
+        <title style="text-align: center;">aacces</title>
+
+        
+    </head>
+    
+    <body>
+        <!-- <script>
+            function loll() {
+                alert("loll");
+            }
+        </script> -->
+
+        <div class="uno">
+            <div class="zero">
+                <div id="divBurger">
+                    <div class="suburger">
+                        <input id="burger" type="checkbox" />
+                
+                        <label id="b1" for="burger" onClick="munu1()">
+                            <span class="elespan" style="background-color: white;"></span>
+                            <span class="elespan" style="background-color: white;"></span>
+                            <span class="elespan" style="background-color: white;"></span>
+                        </label>
+                
+                        <nav id="b2" class="noner">
+                            <br>
+                            <br>
+                            <hr style="background-color: white;" />
+                            <div id="infosaveur">
+                                <p onClick="alerter4()">
+                                    Mon Compte
+                                </p>
+                                <p>
+                                    (^_^)
+                                </p>
+                            </div>
+
+                            <hr style="background-color: white;" />
+
+                            <div id="ecoles">
+                                <p onClick="ecolier(4)" id="4">
+                                    Vos Sauvegardes
+                                </p>
+                            </div>
+                            <!-- <a href="newMom.php" id="cree" class="btn btn-success">cree un moment</a> -->
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- <div>
+                    <svg class="bi bi-arrow-bar-left fleche1 poni" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M5.854 4.646a.5.5 0 0 0-.708 0l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L3.207 8l2.647-2.646a.5.5 0 0 0 0-.708z"/>
+                        <path fill-rule="evenodd" d="M10 8a.5.5 0 0 0-.5-.5H3a.5.5 0 0 0 0 1h6.5A.5.5 0 0 0 10 8zm2.5 6a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 1 0v11a.5.5 0 0 1-.5.5z"/>
+                    </svg>
+
+                    <svg class="bi bi-arrow-bar-right fleche2 poni" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z"/>
+                        <path fill-rule="evenodd" d="M6 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H6.5A.5.5 0 0 1 6 8zm-2.5 6a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 1 0v11a.5.5 0 0 1-.5.5z"/>
+                    </svg>
+                </div> -->
+            
+                <div class="tres102">
+                    <form id="barreRecherche" method="GET" autocomplete="off">
+                        <div class="autocomplete">
+                            <input id="inputRecherche" type="text" name="inputRecherche" placeholder="Rechercher" focus="border:none;">
+                        </div>
+                
+                        <!-- <input type="submit" id="sucaca" class="btn btn-primarver"> -->
+                    </form>
+                </div>
+
+                <!-- <div>
+                    <svg onClick="alerter3(0)" class="bi bi-brightness-high fleche4 poni" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+                    </svg>
+                    <svg onClick="alerter4(0)" class="bi bi-chevron-bar-up fleche3 poni" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M3.646 11.854a.5.5 0 0 0 .708 0L8 8.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708zM2.4 5.2c0 .22.18.4.4.4h10.4a.4.4 0 0 0 0-.8H2.8a.4.4 0 0 0-.4.4z"/>
+                    </svg>
+                </div> -->
+            
+                <!-- <div class="dos3">
+                    <input id="c1" type="checkbox" />
+            
+                    <label id="c2" for="c1" onClick="munu2()">
+                        <div id="lol"></div>
+                    </label>
+            
+                    <nav id="c3" class="noner">
+                        <hr />
+                        <a href="connexion.php">Compte</a>
+                        <hr/>
+                        <a href="murPerso.php">Conv</a>
+                        <a href="murAmis.php">Epingle</a>
+                        <a href="murSuiveur.php">Actu</a>
+                        <hr/>
+                        <a href="listeAmis.php">Ordre</a>
+                        <a href="listeSuiveur.php">link</a>
+                    </nav>
+                </div> -->
+            </div>
+
+<!-- ==========+++++++=========+++++++++===========+====++++++++===+++++=== -->
+
+            <div class="dos">
+                <div id="suq0" class="tres imageback">
+                    <!-- 
+                    <p class="sutres2">
+                        (lol)
+                    </p>
+
+                    <p class="sutres">
+                        loleur
+                    </p>
+
+                    <a class="myBut"></a> 
+                    -->
+                </div>
+                
+                <div class="quatro1">
+                    <svg id="uno" onClick="alerter11()" class="bi bi-plus lol1 poni" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
+                        <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
+                    </svg>
+
+                    <div id="suq1" class="suq1">
+                        <!-- <div class="minbloc1 imageback">
+                            <div class="suminbloc1">
+                                <p class="txtbloc1">lol</p>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="quatro2">
+                    <svg id="dos" onClick="alerter12()" class="bi bi-plus lol2 poni" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
+                        <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
+                    </svg>
+
+                    <div id="suq2" class="suq2">
+                        <!-- <div class="minbloc2 imageback">
+                            <div class="suminbloc1">
+                                <p class="txtbloc1">lol</p>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="cinco">
+                    <div class="suc1">
+                        <div id="deski" class="deski" style="background-color: gainsboro;">
+                            <!-- <div class="susuc1">
+                                <div id="hash1" class="hash">
+                                    <p class="elehash">
+                                        lol
+                                    </p>
+                                </div>
+                            </div> -->
+
+                            <!-- <p>loloooo ooooooo ooooo oo o o o ooooooooo ooooooo loloooo ooooooo ooooo oo o o o ooooooooo ooooooo loloooo ooooooo ooooo oo o o o ooooooooo ooooooo</p> -->
+                        </div>
+
+                        <div id="susuc11" class="susuc11">
+                            <!-- <svg class="bi bi-plus" style="position: fixed;" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
+                                <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
+                            </svg>
+
+                            <div class="elesite"><p class="suelesite">loll</p></div>
+
+                            <script>loll()</script> -->
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="suc2">
+                        <div class="susuc2">
+                            <div id="purlink" class="purlink">
+                                <!-- <p class="elelink">
+                                    <a href="http://localhost:8888/old%203/index.php">
+                                        http://localhost:8888/old%203/index.php
+                                    </a>
+                                </p> -->
+                            </div>
+
+                            <div id="hash2" class="hash2">
+                                <!-- <svg class="bi bi-plus" style="position:fixed;" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
+                                    <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
+                                </svg>
+
+                                <p class="elehash2">lol</p> -->
+                            </div>
+                        </div>
+
+                        <div class="susuc22">
+                            <div id="com" class="com">
+                                <!-- <div id="sucom" class="sucom">
+                                    <p>  +  </p>
+
+                                    <p class="elesucom">lolmmmm mmmmm mm</p>
+                                </div> -->
+
+                                <div id="upcom">
+                                    <!-- <br>
+
+                                    <svg class="bi bi-plus" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
+                                        <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
+                                    </svg>
+
+                                    <br>
+                                    <br>
+
+                                    <div class="elecom"><p>bojour oooooooo ooooo ooooo ooooo ooooo ooooo o</p></div>
+                                    <hr>
+
+                                    <br> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!-- ==========+++++++=========+++++++++===========+====++++++++===+++++=== -->
+                <!-- port view ======== -->
+
+                <div id="port" class="port">
+                    <div id="mensuc1" class="mensuc1 noner" onClick="portgere(1)">
+                        <p style="position: relative;left: 10px;">
+                            info
+                        </p>
+                    </div>
+
+                    <div id="suc1" class="suc1">
+                        <div id="deski2" class="deski" style="background-color: gainsboro;">
+                            <!-- <div class="susuc1">
+                                <div id="hash1port" class="hash">
+                                    <p class="elehash">lol</p>
+                                </div>
+                            </div> -->
+
+                            <!-- <p>loloooo ooooooo ooooo oo o o o ooooooooo ooooooo loloooo ooooooo ooooo oo o o o ooooooooo ooooooo loloooo ooooooo ooooo oo o o o ooooooooo ooooooo</p> -->
+                        </div>
+
+                        <div id="susuc11port" class="susuc11">
+                            <!-- <svg class="bi bi-plus" style="position: fixed;" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
+                                <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
+                            </svg>
+
+                            <div class="elesite"><p class="suelesite">loll</p></div> -->
+                        </div>
+                    </div>
+
+                    <div id="suc2" class="suc2 noner">
+                        <div class="susuc2">
+                            <div id="purlinkport" class="purlink">
+                                <!-- <p class="elelink">
+                                    <a href="http://localhost:8888/old%203/index.php">
+                                        http://localhost:8888/old%203/index.php
+                                    </a>
+                                </p> -->
+                            </div>
+
+                            <div id="hash2port" class="hash2">
+                                <!-- <svg class="bi bi-plus" style="position:fixed;" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
+                                    <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
+                                </svg>
+
+                                <p class="elehash2">lol</p> -->
+                            </div>
+                        </div>
+
+                        <div class="susuc22">
+                            <div id="comport" class="com">
+                                <!-- <div id="sucomport" class="sucom">
+                                    <p>  +  </p>
+
+                                    <p class="elesucom">lolmmmm mmmmm mm</p>
+                                </div> -->
+
+                                <div id="upcomport">
+                                    <!-- <br>
+
+                                    <svg class="bi bi-plus" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
+                                        <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
+                                    </svg>
+
+                                    <br>
+                                    <br>
+
+                                    <div class="elecom"><p>bojour oooooooo ooooo ooooo ooooo ooooo ooooo o</p></div>
+                                    <hr>
+
+                                    <br> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="mensuc2" class="mensuc2" onClick="portgere(2)">
+                        <p style="position: relative;left: 10px;">
+                            info
+                        </p>
+                    </div>
+                </div>
+
+                <!-- ==========alerteru========= -->
+
+                <div id="alerter11" class="alert noner">
+                    <div>
+                        <svg onClick="alerter11()" class="bi bi-x-square-fill poni" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm9.854 4.854a.5.5 0 0 0-.708-.708L8 7.293 4.854 4.146a.5.5 0 1 0-.708.708L7.293 8l-3.147 3.146a.5.5 0 0 0 .708.708L8 8.707l3.146 3.147a.5.5 0 0 0 .708-.708L8.707 8l3.147-3.146z"/>
+                        </svg>
+                    </div>
+                    <!-- <form> -->
+                        <!-- <input type="text" style="min-height: 100px;"> -->
+                    <textarea id="txt1" style="min-height: 100px;" placeholder="nom du parent"></textarea>
+                    <textarea id="txt12" style="min-height: 100px;" placeholder="description du parent"></textarea>
+                    <!-- </form> -->
+                    <!-- <div>
+                        <label for="sor1">libre</label>
+                        <input type="radio" name="sorry" id="sor1">
+                        |
+                        <input type="radio" name="sorry" id="sor2">
+                        <label for="sor2">gerer</label>
+                    </div> -->
+                    <div>
+                        <button onClick="envoi1()" class="sol">Go</button>
+                    </div>
+                </div>
+
+                <div id="alerter12" class="alert noner">
+                    <div>
+                        <svg onClick="alerter12()" class="bi bi-x-square-fill poni" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm9.854 4.854a.5.5 0 0 0-.708-.708L8 7.293 4.854 4.146a.5.5 0 1 0-.708.708L7.293 8l-3.147 3.146a.5.5 0 0 0 .708.708L8 8.707l3.146 3.147a.5.5 0 0 0 .708-.708L8.707 8l3.147-3.146z"/>
+                        </svg>
+                    </div>
+                    <!-- <form> -->
+                        <!-- <input type="text" style="min-height: 100px;"> -->
+                    <textarea id="txt2" style="min-height: 100px;" placeholder="nom de l'enfant"></textarea>
+                    <textarea id="txt22" style="min-height: 100px;" placeholder="description de l'enfant"></textarea>
+                    <!-- </form> -->
+                    <div>
+                        <button onClick="envoi2()" class="sol">Go</button>
+                    </div>
+                </div>
+
+                <div id="alerter13" class="alert noner">
+                    <div>
+                        <svg onClick="alerter13()" class="bi bi-x-square-fill poni" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm9.854 4.854a.5.5 0 0 0-.708-.708L8 7.293 4.854 4.146a.5.5 0 1 0-.708.708L7.293 8l-3.147 3.146a.5.5 0 0 0 .708.708L8 8.707l3.146 3.147a.5.5 0 0 0 .708-.708L8.707 8l3.147-3.146z"/>
+                        </svg>
+                    </div>
+                    <!-- <form> -->
+                        <!-- <input type="text" style="min-height: 100px;"> -->
+                    <textarea id="txt3" style="min-height: 100px;" placeholder="nom du lien"></textarea>
+                    <textarea id="txt31" style="min-height: 100px;" placeholder="lien"></textarea>
+                    <!-- </form> -->
+                    <div>
+                        <button onClick="envoi3()" class="sol">Go</button>
+                    </div>
+                </div>
+
+                <div id="alerter14" class="alert noner">
+                    <div>
+                        <svg onClick="alerter14()" class="bi bi-x-square-fill poni" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm9.854 4.854a.5.5 0 0 0-.708-.708L8 7.293 4.854 4.146a.5.5 0 1 0-.708.708L7.293 8l-3.147 3.146a.5.5 0 0 0 .708.708L8 8.707l3.146 3.147a.5.5 0 0 0 .708-.708L8.707 8l3.147-3.146z"/>
+                        </svg>
+                    </div>
+                    <!-- <form> -->
+                        <!-- <input type="text" style="min-height: 100px;"> -->
+                    <textarea id="txt4" style="min-height: 100px;" placeholder="mot descriptif du contenu de la page"></textarea>
+                    <!-- </form> -->
+                    <div>
+                        <button onClick="envoi4()" class="sol">Go</button>
+                    </div>
+                </div>
+
+                <div id="alerter15" class="alert noner">
+                    <div>
+                        <svg onClick="alerter15()" class="bi bi-x-square-fill poni" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm9.854 4.854a.5.5 0 0 0-.708-.708L8 7.293 4.854 4.146a.5.5 0 1 0-.708.708L7.293 8l-3.147 3.146a.5.5 0 0 0 .708.708L8 8.707l3.146 3.147a.5.5 0 0 0 .708-.708L8.707 8l3.147-3.146z"/>
+                        </svg>
+                    </div>
+                    <!-- <form> -->
+                        <!-- <input type="text" style="min-height: 100px;"> -->
+                    <textarea id="txt5" style="min-height: 100px;" placeholder="commentaire"></textarea>
+                    <!-- </form> -->
+                    <div>
+                        <button onClick="envoi5()" class="sol">Go</button>
+                    </div>
+                </div>
+
+                <!-- ================== -->
+
+                <div id="alerter2" class="alert2 noner">
+                    <div>
+                        <svg onClick="alerter2()" class="bi bi-x-square-fill poni" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm9.854 4.854a.5.5 0 0 0-.708-.708L8 7.293 4.854 4.146a.5.5 0 1 0-.708.708L7.293 8l-3.147 3.146a.5.5 0 0 0 .708.708L8 8.707l3.146 3.147a.5.5 0 0 0 .708-.708L8.707 8l3.147-3.146z"/>
+                        </svg>
+                    </div>
+
+                    <hr style="background-color:black;width: 100%;">
+
+                    <div>
+                        <label for="aligator">pseudo</label>
+                        <br>
+                        <input type="text" id="aligator" name="aligator">
+
+                        <hr style="background-color:black;width: 100%;">
+
+                        <label for="archer">mot de passe</label>
+                        <br>
+                        <input type="text" id="archer" name="archer">
+
+                        <hr style="background-color:black;width: 100%;">
+
+                        <button class="sol" onClick="seCo()" style="height:30px;">seco</button>
+
+                        <p id="mdr"></p>
+                    </div>
+
+                    <br>
+                </div>
+
+                <div id="alerter3" class="alert noner">
+                    <div>
+                        <svg onClick="alerter3(0)" class="bi bi-x-square-fill poni" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm9.854 4.854a.5.5 0 0 0-.708-.708L8 7.293 4.854 4.146a.5.5 0 1 0-.708.708L7.293 8l-3.147 3.146a.5.5 0 0 0 .708.708L8 8.707l3.146 3.147a.5.5 0 0 0 .708-.708L8.707 8l3.147-3.146z"/>
+                        </svg>
+                    </div>
+
+                    <hr style="background-color:black;width: 100%;">
+                    
+                    <label for="chien">pseudo</label>
+                    <input type="text" id="chien" name="chien">
+
+                    <label for="chat">mot de passe</label>
+                    <input type="text" id="chat" name="chat">
+
+                    <label for="desk10">votre description</label>
+                    <input type="text" id="desk10" name="desk10">
+
+                    <hr style="background-color:black;width: 100%;">
+
+                    <button onClick="CreeCreeSave()" style="height:30px;">Valider</button>
+                </div>
+
+                <div id="alerter4" class="alert noner">
+                    <div>
+                        <svg onClick="alerter4()" class="bi bi-x-square-fill poni" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm9.854 4.854a.5.5 0 0 0-.708-.708L8 7.293 4.854 4.146a.5.5 0 1 0-.708.708L7.293 8l-3.147 3.146a.5.5 0 0 0 .708.708L8 8.707l3.146 3.147a.5.5 0 0 0 .708-.708L8.707 8l3.147-3.146z"/>
+                        </svg>
+                    </div>
+
+                    <p id="44"></p>
+                    
+                    <hr style="background-color:black;width: 100%;">
+
+                    <div>
+                        <button onClick="coSaveur()" class="sol">Connexion</button>
+                        <br>
+                        <button onClick="decoSaveur()" class="sol">DeConnexion</button>
+                    </div>
+
+                    <hr style="background-color:black;width: 100%;">
+
+                    <div>
+                        <button onClick="creeSave()" class="sol">Cree un compte</button>
+                    </div>
+
+                    <hr style="background-color:black;width: 100%;">
+
+                    <div>
+                        <button onClick="acceder()" class="sol">Mon Etre</button>
+                    </div>
+                </div>
+
+                <!-- <div id="ale" class="ale noner">
+                    
+                </div> -->
+            </div>
+        </div>
+    </body>
+</html>
+
+<script>
+    function creeSave(){
+        alerter3();
+        alerter4();
+    }
+
+    
+    function CreeCreeSave(){
+        var chien = document.getElementById("chien");
+        var valuechien = chien.value;
+        var chat = document.getElementById("chat");
+        var valuechat = chat.value;
+        var desk10 = document.getElementById("desk10");
+        var valuedesk10 = desk10.value;
+
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                // ecolier0(this.responseText);
+                localStorage.clear();
+                seCo2(valuechien,valuechat);
+            }
+        };
+        xhttp.open("POST", "ajaxcreesaveur.php", true);
+        xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        xhttp.send("pse="+valuechien+"&pas="+valuechat+"&desk10="+valuedesk10);
+        
+        // alert(valuechat);
+        alerter3();
+    }
+    function seCo2(id,ps){
+        // var aligator = document.getElementById("aligator");
+        // var valuealigator = aligator.value;
+        // var archer = document.getElementById("archer");
+        // var valuearcher = archer.value;
+
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var powa3 = document.getElementById ("b2");
+                // if (this.responseText.length == 0) {
+                //     var mdr = document.getElementById("mdr");
+                //     mdr.innerHTML = "il y a un probleme";
+                //     return;
+                // }
+                powa3.innerHTML = this.responseText;
+
+                localStorage.setItem('id',id);
+                localStorage.setItem('da',ps);
+
+                var qui = document.getElementById("444");
+                var valuequi = qui.innerHTML;
+                localStorage.setItem('qi',valuequi);
+
+                // console.log(localStorage);
+            }
+        };
+        // alert(valuealigator);
+        xhttp.open("POST", "ajaxseco.php", true);
+        xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        xhttp.send("pse="+id+"&pas="+ps);
+    }
+    
+
+    function decoSaveur(){
+        localStorage.clear();
+
+        var quaqua = document.getElementById("44");
+        quaqua.innerHTML = "il ne vous reste plus qu'a casser votre disque dur ou recharger la page ou fermer la fanetre";
+    }
+    
+    function coSaveur(){
+        alerter4();
+        alerter2();
+    }
+    function seCo(){
+        var aligator = document.getElementById("aligator");
+        var valuealigator = aligator.value;
+        var archer = document.getElementById("archer");
+        var valuearcher = archer.value;
+
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var powa3 = document.getElementById ("b2");
+                if (this.responseText.length == 0) {
+                    var mdr = document.getElementById("mdr");
+                    mdr.innerHTML = "il y a un probleme";
+                    return;
+                }
+                powa3.innerHTML = this.responseText;
+
+                localStorage.setItem('id',valuealigator);
+                localStorage.setItem('da',valuearcher);
+
+                var qui = document.getElementById("444");
+                var valuequi = qui.innerHTML;
+                localStorage.setItem('qi',valuequi);
+
+                // console.log(localStorage);
+            }
+        };
+        // alert(valuealigator);
+        xhttp.open("POST", "ajaxseco.php", true);
+        xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        xhttp.send("pse="+valuealigator+"&pas="+valuearcher);
+    }
+    function sePreCo(i,j){
+        var aligator = document.getElementById("aligator");
+        var valuealigator = aligator.value;
+        var archer = document.getElementById("archer");
+        var valuearcher = archer.value;
+
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var powa3 = document.getElementById ("b2");
+                powa3.innerHTML = this.responseText;
+            }
+        };
+        // alert(valuealigator);
+        xhttp.open("POST", "ajaxseco.php", true);
+        xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        xhttp.send("pse="+i+"&pas="+j);
+    }
+
+    function acceder(){
+        var pingu = document.getElementById("444");
+        ecolier0(pingu.innerHTML);
+    }
+
+    function alerter10(){
+        var po = document.getElementById("po");
+        var povalue = po.innerHTML;
+        // var quaquaqua = document.getElementById("444");
+        // var quaquaquavalue = quaquaqua.innerHTML;
+        var pse = localStorage.getItem('id');
+        var pas = localStorage.getItem('da');
+        var id = localStorage.getItem('qi');
+
+        if (id == null) {
+            return;
+        }
+
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var powa3 = document.getElementById ("ecoles");
+                if (this.responseText.length == 0) {
+                    return;
+                }
+                powa3.innerHTML = this.responseText;
+            }
+        };
+
+        xhttp.open("POST", "ajaxnewsave.php", true);
+        xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        xhttp.send("po="+povalue+"&pse="+pse+"&pas="+pas+"&id="+id);
+    }
+</script>
+
+<script>
+    function portgere(i){
+        var port = document.getElementById("port");
+
+        var mensuc1 = document.getElementById("mensuc1");
+        var suc1 = document.getElementById("suc1");
+        var mensuc2 = document.getElementById("mensuc2");
+        var suc2 = document.getElementById("suc2");
+
+        if(i == 2){
+            port.classList.add('port2');
+            mensuc2.classList.add('noner');
+            suc1.classList.add('noner');
+
+            mensuc1.classList.remove('noner');
+            suc2.classList.remove('noner');
+        }
+        if(i == 1){
+            mensuc1.classList.add('noner');
+            suc2.classList.add('noner');
+
+            port.classList.remove('port2');
+            mensuc2.classList.remove('noner');
+            suc1.classList.remove('noner');
+        }
+    }
+</script>
+
+
+
+<script>
+    function citoyen() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var powa3 = document.getElementById ("suq0");
+                powa3.innerHTML = this.responseText;
+
+                var scripts=powa3.getElementsByTagName("script");
+                for (var i=0; i<scripts.length; i++) {
+                     eval(scripts[i].innerHTML); 
+                } 
+            }
+        };
+        xhttp.open("GET", "-1/ajaxville1.php", true);
+        xhttp.send();
+        
+        // selectmenu(i);
+    }
+
+    // =======
+
+    function ecolier0(i) {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var powa3 = document.getElementById ("suq0");
+                powa3.innerHTML = this.responseText;
+
+                var scripts=powa3.getElementsByTagName("script");
+                for (var i=0; i<scripts.length; i++) {
+                     eval(scripts[i].innerHTML); 
+                }
+            }
+        };
+        xhttp.open("GET", "0/ajaxecole0.php?lol="+i, true);
+        xhttp.send();
+        
+        // selectmenu(i);
+    }
+
+    function ecolier(i) {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var powa3 = document.getElementById ("suq1");
+                powa3.innerHTML = this.responseText;
+            }
+        };
+        xhttp.open("GET", "0/ajaxecole.php?lol="+i, true);
+        xhttp.send();
+        
+        // selectmenu(i);
+        // ecoliersup(i);
+    }
+    function ecoliersup(i,s){
+        // document.getElementById('maliste').insertAdjacentHTML('beforeEnd');
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var lol = this.responseText;
+                var powa3 = document.getElementById ("suq1").insertAdjacentHTML('beforeEnd',lol);
+            }
+        };
+        xhttp.open("GET", "0/ajaxecolesup.php?lol="+i+"&id="+s, true);
+        xhttp.send();
+    }
+
+    function ecolier2(i) {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var powa3 = document.getElementById ("suq2");
+                powa3.innerHTML = this.responseText;
+            }
+        };
+        xhttp.open("GET", "0/ajaxecole2.php?lol="+i, true);
+        xhttp.send();
+        // alert("lol");
+        // selectmenu(i);
+    }
+    function ecolier2sup(i,s){
+        // document.getElementById('maliste').insertAdjacentHTML('beforeEnd');
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var lol = this.responseText;
+                var powa3 = document.getElementById ("suq2").insertAdjacentHTML('beforeEnd',lol);
+            }
+        };
+        xhttp.open("GET", "0/ajaxecole2sup.php?lol="+i+"&id="+s, true);
+        xhttp.send();
+    }
+
+    // =========
+
+    function classeur(i) {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var powa2 = document.getElementById ("deski");
+                powa2.innerHTML = this.responseText;
+
+                var powa2port = document.getElementById ("deski2");
+                powa2port.innerHTML = this.responseText;
+            }
+        };
+        xhttp.open("GET", "1/ajaxclasse.php?lol="+i, true);
+        xhttp.send();
+        // console.log(xhttp);
+        // selectbloc(i);
+    }
+
+    function classeur2(i) {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var powa2 = document.getElementById ("susuc11");
+                powa2.innerHTML = this.responseText;
+
+                var scripts=powa2.getElementsByTagName("script");
+                for (var i=0; i<scripts.length; i++) {
+                     eval(scripts[i].innerHTML); 
+                } 
+
+                var powa2port = document.getElementById ("susuc11port");
+                powa2port.innerHTML = this.responseText;
+
+                var scripts=powa2port.getElementsByTagName("script");
+                for (var i=0; i<scripts.length; i++) {
+                     eval(scripts[i].innerHTML); 
+                } 
+
+                //
+
+                var pluse1 = document.getElementById('tres').nextSibling;
+                // console.log(pluse);
+                if (pluse1.nextSibling == null) {
+                    vide();
+                }
+            }
+            // if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+            //     document.getElementById("ma_div").innerHTML=xmlhttp.responseText;
+            //     var scripts=document.getElementById("ma_div").getElementsByTagName("script");
+            //     for (var i=0; i<scripts.length; i++) {
+            //          eval(scripts[i].innerHTML); 
+            //     } 
+            // }
+        };
+        xhttp.open("GET", "1/ajaxclasse2.php?lol="+i, true);
+        xhttp.send();
+        console.log(xhttp);
+        // selectbloc(i);
+    }
+
+    function vide(){
+        var powa2 = document.getElementById ("purlink");
+        powa2.innerHTML = "";
+        var powa2port = document.getElementById ("purlinkport");
+        powa2port.innerHTML = "";
+
+        var powa2 = document.getElementById ("hash2");
+        powa2.innerHTML = "";
+        var powa2port = document.getElementById ("hash2port");
+        powa2port.innerHTML = "";
+
+        var powa2 = document.getElementById ("upcom");
+        powa2.innerHTML = "";
+        var powa2port = document.getElementById ("upcomport");
+        powa2port.innerHTML = "";
+    }
+
+    // ===========
+
+    function elevage1(i) {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var powa2 = document.getElementById ("purlink");
+                powa2.innerHTML = this.responseText;
+
+                var powa2port = document.getElementById ("purlinkport");
+                powa2port.innerHTML = this.responseText;
+            }
+        };
+        xhttp.open("GET", "2/ajaxeleve1.php?lol="+i, true);
+        xhttp.send();
+        console.log(xhttp);
+        // selectbloc(i);
+    }
+
+    function elevage2(i) {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var powa2 = document.getElementById ("hash2");
+                powa2.innerHTML = this.responseText;
+
+                var scripts=powa2.getElementsByTagName("script");
+                for (var i=0; i<scripts.length; i++) {
+                     eval(scripts[i].innerHTML); 
+                } 
+
+                var powa2port = document.getElementById ("hash2port");
+                powa2port.innerHTML = this.responseText;
+
+                var scripts=powa2port.getElementsByTagName("script");
+                for (var i=0; i<scripts.length; i++) {
+                     eval(scripts[i].innerHTML); 
+                }
+
+                //
+
+                var pluse2 = document.getElementById('quatro').nextSibling;
+                // console.log(pluse);
+                if (pluse2.nextSibling == null) {
+                    vide2();
+                }
+            }
+        };
+        xhttp.open("GET", "2/ajaxeleve2.php?lol="+i, true);
+        xhttp.send();
+        // selectbloc(i);
+    }
+
+    function vide2(){
+        var powa2 = document.getElementById ("upcom");
+        powa2.innerHTML = "";
+        var powa2port = document.getElementById ("upcomport");
+        powa2port.innerHTML = "";
+    }
+
+    function elevage3(i) {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var powa2 = document.getElementById ("upcom");
+                powa2.innerHTML = this.responseText;
+
+                var powa2port = document.getElementById ("upcomport");
+                powa2port.innerHTML = this.responseText;
+            }
+        };
+        xhttp.open("GET", "2/ajaxeleve3.php?lol="+i, true);
+        xhttp.send();
+        // selectbloc(i);
+    }
+</script>
+
+<script>
+    function alerter11(){
+        var powa2 = document.getElementById ("alerter11");
+
+        if (powa2.classList.contains("noner") == true ) {
+            powa2.classList.add('nononer');
+            powa2.classList.remove('noner');
+        }else{
+            powa2.classList.add('noner');
+            powa2.classList.remove('nononer');
+        }
+
+        document.getElementById ("txt1").value = "";
+        document.getElementById ("txt12").value = "";
+    }
+
+    function envoi1(){
+        var po = document.getElementById ("po").innerHTML;
+        var txt = document.getElementById ("txt1").value;
+        var txt2 = document.getElementById ("txt12").value;
+        // alert(txt);
+
+        var xhttp = new XMLHttpRequest();
+
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var powa3 = document.getElementById ("suq0");
+                powa3.innerHTML = this.responseText;
+
+                var scripts=powa3.getElementsByTagName("script");
+                for (var i=0; i<scripts.length; i++) {
+                     eval(scripts[i].innerHTML); 
+                } 
+            }
+        };
+
+        xhttp.open("POST", "0/ajaxenvoi1.php", true);
+        xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        xhttp.send("po="+po+"&txt="+txt+"&txt2="+txt2);
+
+        alerter11();
+    }
+
+    //
+
+    function alerter12(){
+        var powa2 = document.getElementById ("alerter12");
+
+        if (powa2.classList.contains("noner") == true ) {
+            powa2.classList.add('nononer');
+            powa2.classList.remove('noner');
+        }else{
+            powa2.classList.add('noner');
+            powa2.classList.remove('nononer');
+        }
+
+        document.getElementById ("txt2").value = "";
+        document.getElementById ("txt22").value = "";
+
+    }
+
+    function envoi2(){
+        var po = document.getElementById ("po").innerHTML;
+        var txt = document.getElementById ("txt2").value;
+        var desk = document.getElementById ("txt22").value;
+
+        // alert(txt);
+
+        var xhttp = new XMLHttpRequest();
+
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var powa3 = document.getElementById ("suq0");
+                powa3.innerHTML = this.responseText;
+
+                var scripts=powa3.getElementsByTagName("script");
+                for (var i=0; i<scripts.length; i++) {
+                     eval(scripts[i].innerHTML);
+                } 
+            }
+        };
+
+        xhttp.open("POST", "0/ajaxenvoi2.php", true);
+        xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        xhttp.send("po="+po+"&txt="+txt+"&desk="+desk);
+
+        alerter12();
+    }
+
+    //
+
+    function alerter13(){
+        var powa2 = document.getElementById ("alerter13");
+
+        if (powa2.classList.contains("noner") == true ) {
+            powa2.classList.add('nononer');
+            powa2.classList.remove('noner');
+        }else{
+            powa2.classList.add('noner');
+            powa2.classList.remove('nononer');
+        }
+
+        document.getElementById ("txt3").value = "";
+        document.getElementById ("txt31").value = "";
+    }
+
+    function envoi3(){
+        var po = document.getElementById ("po").innerHTML;
+        var txt = document.getElementById ("txt3").value;
+        var txt2 = document.getElementById ("txt31").value;
+        // alert(txt);
+
+        var xhttp = new XMLHttpRequest();
+
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                // var powa3 = document.getElementById ("suq0");
+                // powa3.innerHTML = this.responseText;
+
+                // var scripts=powa3.getElementsByTagName("script");
+                // for (var i=0; i<scripts.length; i++) {
+                //      eval(scripts[i].innerHTML); 
+                // } 
+
+                ecolier0(po);
+            }
+        };
+
+        xhttp.open("POST", "1/ajaxenvoi3.php", true);
+        xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        xhttp.send("po="+po+"&txt="+txt+"&txt2="+txt2);
+
+        alerter13();
+    }
+
+    //
+
+    function alerter14(){
+        var powa2 = document.getElementById ("alerter14");
+
+        if (powa2.classList.contains("noner") == true ) {
+            powa2.classList.add('nononer');
+            powa2.classList.remove('noner');
+        }else{
+            powa2.classList.add('noner');
+            powa2.classList.remove('nononer');
+        }
+
+        document.getElementById ("txt4").value = "";
+    }
+
+    function envoi4(){
+        var lo = document.getElementById ("lo").innerHTML;
+        var mo = document.getElementById ("mo").innerHTML;
+        var txt = document.getElementById ("txt4").value;
+        // alert(txt);
+
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                elevage2(mo);
+            }
+        };
+
+        xhttp.open("POST", "2/ajaxenvoi4.php", true);
+        xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        xhttp.send("lo="+lo+"&txt="+txt);
+
+        alerter14();
+    }
+
+    //
+
+    function alerter15(){
+        var powa2 = document.getElementById ("alerter15");
+
+        if (powa2.classList.contains("noner") == true ) {
+            powa2.classList.add('nononer');
+            powa2.classList.remove('noner');
+        }else{
+            powa2.classList.add('noner');
+            powa2.classList.remove('nononer');
+        }
+
+        document.getElementById ("txt5").value = "";
+    }
+
+    function envoi5(){
+        // var mo = document.getElementById ("mo").innerHTML;
+        var yo = document.getElementById ("yo").innerHTML;
+        var txt = document.getElementById ("txt5").value;
+        // alert(txt);
+
+        var xhttp = new XMLHttpRequest();
+        
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                elevage3(yo);
+            }
+        };
+
+        xhttp.open("POST", "2/ajaxenvoi5.php", true);
+        xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        xhttp.send("yo="+yo+"&txt="+txt);
+
+        alerter15();
+    }
+
+    // ================
+
+    function alerter2(){
+        var powa2 = document.getElementById ("alerter2");
+
+        if (powa2.classList.contains("noner") == true ) {
+            powa2.classList.add('nononer');
+            powa2.classList.remove('noner');
+        }else{
+            powa2.classList.add('noner');
+            powa2.classList.remove('nononer');
+        }
+
+    }
+
+    function alerter3(i){
+        var powa2 = document.getElementById ("alerter3");
+
+        if (powa2.classList.contains("noner") == true ) {
+            powa2.classList.add('nononer');
+            powa2.classList.remove('noner');
+        }else{
+            powa2.classList.add('noner');
+            powa2.classList.remove('nononer');
+        }
+
+    }
+
+    function alerter4(i){
+        var powa2 = document.getElementById ("alerter4");
+
+        if (powa2.classList.contains("noner") == true ) {
+            powa2.classList.add('nononer');
+            powa2.classList.remove('noner');
+        }else{
+            powa2.classList.add('noner');
+            powa2.classList.remove('nononer');
+        }
+    }
+
+    function ale(){
+        var powa2 = document.getElementById ("ale");
+
+        if (powa2.classList.contains("noner") == true ) {
+            powa2.classList.add('nononer');
+            powa2.classList.remove('noner');
+        }else{
+            powa2.classList.add('noner');
+            powa2.classList.remove('nononer');
+        }
+
+    }
+</script>
+
+<script>
+    function munu1() {
+        var powa2 = document.getElementById ("b2");
+
+        if (powa2.classList.contains("noner") == true ) {
+            powa2.classList.remove('noner');
+        }else{
+            powa2.classList.add('noner');
+        }
+    }
+
+    function munu2() {
+        var powa2 = document.getElementById ("c3");
+
+        if (powa2.classList.contains("noner") == true ) {
+            powa2.classList.remove('noner');
+        }else{
+            powa2.classList.add('noner');
+        }
+    }
+</script>
+
+<script>
+    var inputRecherche = document.getElementById( "inputRecherche" );
+    inputRecherche.addEventListener(
+        "input",
+        function () { ajaxRecherche(); }
+    );
+
+    function ajaxRecherche(){
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                if (this.responseText.length == 0) {
+                    return;
+                }
+
+                var powa3 = document.getElementById ("suq1");
+                powa3.innerHTML = this.responseText;
+                // var powa4 = document.getElementById ("suq2");
+                // powa4.innerHTML = this.responseText;
+            }
+        };
+        // alert(inputRecherche);
+        xhttp.open("GET", "ajaxrecherche1.php?lo="+inputRecherche.value, true);
+        // xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        xhttp.send(null);
+    }
+
+    // function ajaxRecherche(){
+    //     ecoliereux();
+    //     // ecoliereux2();
+    // }
+
+    // function ecoliereux(){
+    //     var xhttp = new XMLHttpRequest();
+    //     xhttp.onreadystatechange = function() {
+    //         if (this.readyState == 4 && this.status == 200) {
+    //             var powa3 = document.getElementById ("suq1");
+    //             powa3.innerHTML = this.responseText;
+    //         }
+    //     };
+
+    //     xhttp.open("GET", "ajaxrecherche1.php", true);
+    //     xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+    //     xhttp.send("lo="+inputRecherche);
+    // }
+    // function ecoliereux2(){
+    //     var xhttp = new XMLHttpRequest();
+    //     xhttp.onreadystatechange = function() {
+    //         if (this.readyState == 4 && this.status == 200) {
+    //             var powa4 = document.getElementById ("suq2");
+    //             powa4.innerHTML = this.responseText;
+    //         }
+    //     };
+
+    //     xhttp.open("POST", "ajaxrecherche2.php", true);
+    //     xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+    //     xhttp.send("lo="+inputRecherche);
+    // }
+</script>
+
+<script>
+    function presave(){
+        if (localStorage.getItem("id") === null) {
+            return;
+        }else{
+            var pse = localStorage.getItem("id");
+            var pas = localStorage.getItem("da");
+
+            sePreCo(pse,pas)
+        }
+    }
+</script>
+
+
+
+<script>
+    citoyen();
+    // =======
+    // ecolier0(3);
+    // ecolier(1);
+    // ecolier2(1);
+    // =======
+    // classeur(1);
+    // classeur2(1);
+    // =======
+    // elevage1(1);
+    // elevage2(1);
+    // elevage3(1);
+    // =======
+    presave();
+    // console.log(localStorage);
+</script>
+
+<!-- <script>
+    loll();
+</script> -->

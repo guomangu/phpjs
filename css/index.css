@@ -1,0 +1,475 @@
+
+/* html{
+    background-image:url("/old 3/image/nuage.webp");
+    background-attachment:fixed;
+    }
+    body{
+    font-size:62.5%;
+    padding:0;
+    margin:0;
+    background-image:url("/old 3/image/nuage.webp");
+   
+    background-size: cover;
+    background-attachment:fixed;
+    } */
+
+
+
+
+
+
+.uno{
+    display:grid;
+    grid-template-rows: 70px auto;    
+}
+
+/* tout ======= */
+
+.dos{
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    /* background-color: gray; */
+
+    display:grid;
+    grid-template-rows: 200px auto;
+    grid-template-columns: 200px auto;
+    /* align-items: center; */
+    
+    /* position: absolute;
+    top:0px;
+    left:0px;
+    position:fixed;
+    background-color:white;
+    width:100%; */
+    /* height:60px; */
+
+    /* box-shadow: 0px 10px 20px 0px white, 0px 10px 20px 0px white;   */
+}
+.tres1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    height:100%;
+
+    display:grid;
+    grid-template-columns: 1fr 40% 1fr;
+}
+
+.tres2{
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    /* display:inline-block; */
+    white-space: nowrap;
+    overflow: auto;
+
+    /* height:170px; */
+
+}
+
+.quatro{
+    grid-row-start: 3;
+    grid-row-end: auto;
+
+
+    display:grid;
+    grid-template-columns: 1fr auto 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    align-items: center;    
+}
+
+/* tres1============= */
+.menuselect{
+    color: white;
+    text-shadow: 0px 0px 20px #000000, 0px 0px 20px #000000, 0px 0px 20px #000000, 0px 0px 20px #000000, 0px 0px 10px #000000, 0px 0px 10px #000000;
+}
+
+.separe{
+    height: 20px;
+    width: 1px;
+    background-color: black;
+    display: inline-block;
+}
+
+/* tres2 ========= */
+
+.bloc{
+    height: 100px;
+    width:100px;
+    margin:5px;
+    background-color:grey ;
+    display:inline-block;
+    border-radius: 10px;
+    /* background-size:cover; */
+
+    text-align: center;
+    /* background-attachment: fixed; */
+    background-image:url("/old 3/image/cloud2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.blocselect{
+    box-shadow: 0px 30px 20px -3px rgba(0,0,0,0.80);
+}
+
+.dabloc{
+    display:grid;
+}
+
+.pop{
+    text-shadow: black 0px 0px 8px, black 0px 0px 8px, black 0px 0px 8px, black 0px 0px 8px, black 0px 0px 8px, black 0px 0px 8px, black 0px 0px 8px, black 0px 0px 8px, black 0px 0px 8px, black 0px 0px 8px, black 0px 0px 8px, black 0px 0px 8px, black 0px 0px 8px, black 0px 0px 8px, black 0px 0px 8px, black 0px 0px 8px, black 0px 0px 8px, black 0px 0px 8px;
+    color:white;
+    text-align:center;
+}
+
+.mystyleselect{
+    border-radius: 100px;
+
+}
+/* quatro ========== */
+.big{
+    width:100%;
+}
+
+#mid{
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    /* display:grid;
+    grid-template-columns: 1fr auto 1fr; */
+}
+
+.sma{
+    /* grid-column-start: 2;
+    grid-column-end: 3; */
+
+    width:300px;
+    height:300px;
+
+    margin:30px;
+
+    /* display: grid;
+    grid-template-rows: 1fr auto 1fr; */
+
+    background-image:url("/old 3/image/cloud2.jpg");
+    /* background-position-x: 0;
+    background-position-y: 0; */
+    background-attachment: fixed;
+    background-size:cover;
+
+}
+
+.supop{
+    grid-row-start: 2;
+
+}
+/* https://cdn.radiofrance.fr/s3/cruiser-production/2019/03/4eedc6a5-815b-47d0-a95f-080e181a72bb/838_nuagegettyimages-184103864.webp */
+/* .nuage{
+    background-image:url("/old 3/image/nuage.webp");
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    width:300px;
+    height:300px;
+    background-attachment: fixed;
+    background-size:cover;
+    border-radius: 500px;
+    margin:30px;
+
+    display: grid;
+    grid-template-rows: 45%;
+
+} */
+
+.pop2{
+    text-shadow: white 0px 0px 18px,white 0px 0px 18px,white 0px 0px 18px,white 0px 0px 18px,white 0px 0px 18px;
+    color:black;
+    text-align:center;
+    grid-row-start: 2;
+}
+
+/* cinco ======== */
+
+#cinco{
+     position: fixed;
+     height:340px;
+     width: 300px;
+     background-color: white;
+
+     bottom: 0;
+     width: 0;
+     /* bottom: -21px;
+    left: -24px; */
+    transform: scale(1);
+     /* transform: translateX(-50%); */
+    /*bottom: 0;
+    height: 150px;
+    width:100%;
+    background-color:green; */
+
+    /* background-image: url("/old 3/image/nuage.webp");
+    /* background-size: cover;
+    background-attachment: fixed;
+    background-size: cover; */
+
+
+
+    /* grid-column-start: 1;
+    grid-column-end: 2;
+
+    display:grid;
+    grid-template-columns: 1fr auto 1fr; */
+
+
+
+    /* grid-template-columns: 150px 1fr 1fr 50px; */
+
+    /* background-image:url("/old 3/image/cloud2.jpg"); */
+    /* background-position-x: 0;
+    background-position-y: 0; */
+    /* background-attachment: fixed;
+    background-size:cover; */
+    /* box-shadow: 0px -20px 20px 0px white, 0px -20px 20px 0px white; */
+    
+    /* background-color: aqua; */
+    /* display:none; */
+}
+
+
+
+.sucinco{
+    /* background-attachment: fixed; */
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display:grid;
+    grid-template-rows: 40px 320px;
+    width: 300px;
+    
+    position: fixed;
+    margin: -7% auto;
+    left: 8%;
+    background-color: white;
+}
+
+/* .present{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: url("/old 3/image/cloud2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+} */
+
+.sudesk{
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#desk{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    /* grid-column-start: 2;
+    grid-column-end: 3; */
+    /* height:100%; */
+    /* width:100%; */
+    overflow:auto;
+    /* position:relative; */
+    height: 300px;
+}
+
+.supop{
+    background-color: black;
+    background-image:url("/old 3/image/cloud2.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    height: 2px;
+}
+
+.disparat{
+    display:none;
+}
+
+/* seis================================= */
+
+/* #seis{
+    position: fixed;
+    height:340px;
+    width: 300px;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+
+
+    transform: translate(100%, 100%);
+
+    background-color: aqua;
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+} */
+
+.seis2{
+    position: fixed;
+    height:340px;
+    width: 300px;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+}
+
+#suseis{
+    width: 100%;
+}
+
+
+
+
+/* .conv{
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    display:grid;
+    grid-template-rows: auto auto;
+
+    height:100%;
+} */
+
+.convbar{
+    /* grid-row-start: 1;
+    grid-row-end: 2; */
+
+    display:grid;
+    grid-template-columns:auto 40px;
+}
+
+#openseis{
+    height: 38px;
+    border-radius: 30px 0px 0px 30px;
+    width: 100%;
+    background-color: darkblue;
+    grid-column-start: 2;
+    grid-row-start: 1;
+
+    background-image:url("/old 3/image/cloud2.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.openchoice{
+    display:none;
+
+    white-space: nowrap;
+    overflow: auto;
+
+    width: 100%;
+}
+
+.suopenchoice{
+    grid-column-end: 3;
+    grid-column-start: 1;
+    width: 350px;
+    justify-self: center;
+    display:none;
+}
+
+/* .bar1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+} */
+
+/* .bar1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+} */
+
+.convtx{
+    overflow-y: scroll;
+    /* height: 100%; */
+    height: 300px;
+
+}
+/* .convlol{
+    overflow-y:scroll;
+    height:100%;
+    width:100%;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    position:relative;
+
+} */
+
+/* .minimen{
+    grid-column-start: 4;
+    grid-column-end: 5;
+} */
+
+@media (max-width: 940px) {
+    .sucinco {
+        width:222px;
+    }
+    .seis2{
+        width:202px;
+    }
+}
+
+@media (max-width: 760px) {
+    #cinco{
+        height: 40px;
+        width: 40px;
+        background-color: black;
+        border-radius: 40px 40px 40px 0px;
+        background-image: url("/old 3/image/cloud2.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        border-color: white;
+        border-style: solid;
+    }
+    .sucinco {
+        display:none
+    }
+    .seis2{
+        height: 40px;
+        width: 40px;
+        background-color: black;
+        border-radius: 40px 40px 0px 40px;
+        /* background-image: url("/old 3/image/cloud2.jpg");
+        background-attachment: fixed;
+        background-size: cover; */
+        border-color: white;
+        border-style: solid;
+    }
+    .convtx{
+        display:none;
+    }
+    
+}
+
+.seisact{
+    position: fixed;
+    /* height:340px;
+    width: 300px; */
+    top:200px;
+    right: 0;
+    background-color: white;
+    height: 70%;
+    width: 100%;
+
+    
+}
+
+.activeur{
+    display:block;
+}
+
+.activeur2{
+    display:grid;
+}
+
+.activeur3{
+    display:inline-block;
+}
